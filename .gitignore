@@ -29,3 +29,7 @@ Pods/
 *.log
 *.tmp
 .idea/
+
+# Build output / archives (do not rely on a global gitignore for this)
+build/
+*.xcarchive
