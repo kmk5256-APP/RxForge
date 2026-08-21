@@ -120,6 +120,10 @@ struct AboutView: View {
                     .foregroundStyle(Color.brandSlate)
                     .fixedSize(horizontal: false, vertical: true)
 
+                Text("An Ai2Life Technologies app")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(Color.brandPrimary)
+
                 Text("© 2026 Karan Kohli")
                     .font(.caption2)
                     .foregroundStyle(Color.brandSlate)

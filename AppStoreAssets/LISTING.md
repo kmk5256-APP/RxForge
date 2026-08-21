@@ -131,10 +131,14 @@ these answers in sync if that ever changes.
 
 ## Age rating
 
-Expect **4+**. When the questionnaire asks about *Medical or Treatment Information*, answer
-**None** — RxForge presents exam-study content, not diagnosis, treatment guidance, or
-personalized medical advice, and the About screen states that explicitly. Everything else:
-None.
+Complete Apple's current questionnaire literally. For *Medical or Treatment Information*,
+answer **Frequent** because the original pharmacy-study questions discuss medications and
+treatment topics, even though RxForge is educational and does not provide patient-specific
+advice. Answer **No** when asked whether the app is a regulated medical device. For the other
+content descriptors, answer **None** unless the shipped build changes. Accept the rating App
+Store Connect calculates; do not force or advertise an expected 4+ rating.
+
+References: [Set an app age rating](https://developer.apple.com/help/app-store-connect/manage-app-information/set-an-app-age-rating) and [Age rating values and definitions](https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions).
 
 ## Export compliance
 
